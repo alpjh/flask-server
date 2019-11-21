@@ -1,6 +1,6 @@
-from app import __init__
+from app import app
 
 if __name__ == '__main__':
-    __init__.run(debug=True, port=8081)
+    app.run()
 
 
